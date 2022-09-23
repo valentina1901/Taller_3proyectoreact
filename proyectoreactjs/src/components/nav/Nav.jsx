@@ -1,5 +1,4 @@
 import './Nav.css';
-import './Section.jsx';
 
 import slide1 from './slide1.jpg'
 import slide2 from './slide2.png'
@@ -23,19 +22,32 @@ function Nav(){
                 consectetur adipiscing elit.
             </p>
         </div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src={slide1}></img>
-            </div>
-            <div class="carousel-item">
-                <img src={slide2}></img>
-            </div>
-            <div class="carousel-item">
-                <img src={slide1}></img>
-            </div>
-            </div>
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src={slide1} alt="First slide"></img>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={slide2} alt="Second slide"></img>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={slide1} alt="Third slide"></img>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </div>
     <section class="container2">
     <p class="contai">
