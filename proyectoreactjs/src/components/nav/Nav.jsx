@@ -4,6 +4,11 @@ import slide1 from './slide1.jpg'
 import slide2 from './slide2.png'
 import imgn from './Hotelia negro vertical.svg'
 import logo from './Hotelia horizontal blanco.svg'
+import user1 from './user1.png'
+import user2 from './user2.png'
+import user3 from './user3.png'
+import vector from './Vector-opinion.png'
+
 
 function Nav(){
     return(
@@ -17,12 +22,12 @@ function Nav(){
         </div>  
     </nav>
     <div class="primerimg">
-        <div class="text-slider">
+    <div class="text-slider">
             <p>Lorem ipsum dolor sit ameteliter
                 consectetur adipiscing elit.
             </p>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" >
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -39,14 +44,6 @@ function Nav(){
       <img class="d-block w-100" src={slide1} alt="Third slide"></img>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
     </div>
     <section class="container2">
@@ -62,7 +59,152 @@ function Nav(){
         </p>
     <img src={imgn}></img>
 
-    </section></>
+    </section>
+    
+    
+    <section id="features">
+        <h2 class="feature-title">Razones por las que disfrutarás quedarte con nosotros</h2>
+        <div class="feature-description">
+            <div class="feature feature-blue">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="feature feature-black">
+                <i class="fa-solid fa-bed"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="feature feature-blue">
+                <i class="fa-solid fa-wifi"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class=" feature feature-black">
+                <i class="fa-solid fa-dumbbell"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="maps">
+        <h1>Ubícanos</h1>
+    </div>
+    <section class="maps1">
+        
+    </section>
+
+    <footer>
+        <h2>
+            AVENIDA CARRERA 8 #12A - 42, BOGOTA D.C COLOMBIA
+        </h2>
+        <hr />
+        <h2>
+            +57 601 4567899
+        </h2>
+    </footer>
+
+    <div class="nosotros" id="nosotros">
+            Nuestro usuarios dicen...
+        </div>
+        <section id="opinion">
+            <div class="cards carta1">
+                <div class="card-content">
+                <img src={vector} class="deg"></img>
+                    <div class="image">
+                    <img src={user1} class="fotop"></img>
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Diego Rodríguez</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star star5"></i>
+                        <i class="fas fa-star star4"></i>
+                        <i class="fas fa-star star3"></i>
+                        <i class="fas fa-star star2"></i>
+                        <i class="fas fa-star star1"></i>
+                    </div>
+                    <div class="bottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur
+                        doloribus totam quo quibusdam saepe assumenda ad voluptates dolor aliquam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards carta2">
+                <div class="card-content">
+                <img src={vector} class="deg"></img>
+                    <div class="image">
+                    <img src={user2} class="fotop"></img>
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Diana García</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star star5"></i>
+                        <i class="fas fa-star star4"></i>
+                        <i class="fas fa-star star3"></i>
+                        <i class="fas fa-star star2"></i>
+                        <i class="fas fa-star star1"></i>
+                    </div>
+                    <div class="bottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur
+                        doloribus totam quo quibusdam saepe assumenda ad voluptates dolor aliquam.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards carta3">
+                <div class="card-content">
+                <img src={vector} class="deg"></img>
+                    <div class="image">
+                    <img src={user3} class="fotop"></img>
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Andrés Hernández</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star star5"></i>
+                        <i class="fas fa-star star4"></i>
+                        <i class="fas fa-star star3"></i>
+                        <i class="fas fa-star star2"></i>
+                        <i class="fas fa-star star1"></i>
+                    </div>
+                    <div class="bottom">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur
+                        doloribus totam quo quibusdam saepe assumenda ad voluptates dolor aliquam.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="piepag">
+        <div class="grup1">
+        <div class="box">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                   Atque recusandae blanditiis delectus sunt molestiae temporibus!</p>
+                   <div class="red-social">
+                    <a href="https://www.instagram.com/" class="fa fa-instagram">
+                    </a>
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook">
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="fa fa-twitter">
+                    </a>
+                </div>
+            </div>
+        <div class="box">        
+                 <p><i class="fa-solid fa-location-dot"></i>
+                Avenida carrera 8 #12A - 42, Bogota D.C Colombia</p>
+           
+                <p><i class="fa-solid fa-phone"></i>
+                +57 601 4567899</p>     
+        </div>
+        <div class="box">
+            <p>Politicas de privacidad</p>
+            <p>Politicas de privacidad</p>
+        </div>
+        </div>
+    </footer>
+
+    </>
   
     );
 }
